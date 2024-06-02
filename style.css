@@ -1,0 +1,42 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.content {
+    width: 600px;
+    margin: 0 auto 30px;
+    background-color: #666;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title-bar {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title-bar h2 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+a {
+    color: #0000FF;
+    margin: 0px 0;
+    padding: 0px 0;
+    text-decoration: none;
+    display: block;
+    line-height: .5; /* Reduced line height for tighter spacing */
+}
+
+a:hover {
+    color: white;
+    font-weight: bold;
+}
